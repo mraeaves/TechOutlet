@@ -1,10 +1,11 @@
 import './topnav.css';
+import toLogo1 from '../../assets/logo1.png';
 
 export const TopNav = () => {
   return (
     <>
       <nav className="navbar mainNav">
-        <div class="logoSection"><img src="../src/assets/logo1.png" /></div>
+        <div class="logoSection"><a href='/'><img src={toLogo1} alt='TechOutlet'/></a></div>
           <ul class="nav-links">
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
@@ -37,16 +38,6 @@ export const TopNav = () => {
                 <li class="signUpBtn"><a href="/">Sign Up</a></li>
               </div>
             </div>
-
-
-
-
-
-
-
-
-
-
           </ul>
       </nav>
     </>
