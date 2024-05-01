@@ -4,4 +4,4 @@ Background - #ffffff
 
 Grey smaller inner boxes - #f9f9f9
 
-Red boxes - #ff2000
+Red boxes - #ff2000 / #FF0020
