@@ -1,6 +1,6 @@
 nav.mainNav {
     margin: 0;
-    padding: 0;
+    padding: 0 0 2px 0;
     justify-content: center;
     vertical-align: middle;
 }
@@ -102,15 +102,11 @@ div.accountButtons {
     left: 0;
 }
 
-.dropdown > li > a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
+/*
 .department > .dropdown > li:hover {
     border-radius: 15px;
     background-color: #FF0020;
-}
+}*/
 
 .caret {
     width: 8px;
@@ -122,8 +118,20 @@ div.accountButtons {
 }
 
 .dropdown li {
-    width: 12em;
+    width: 13em;
     text-align: center;
+}
+
+.dropdownLink {
+    padding: 5px 35px;
+}
+
+.dropdownLink:hover {
+    background-color: #FF0020;
+    color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    text-decoration: none;
 }
 
 .divider {
@@ -187,8 +195,18 @@ li.signUpBtn a:hover {
     text-decoration: none;
 }
 
+/* KEYFRAMES */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeOut {
+    100% { opacity: 0; }
+    0% { opacity: 1; }
+  }
+
 /* APPLYING MEDIA QUERIES */
-@media (max-width: 1550px) {
+@media (max-width: 1710px) {
     .logoSection {
         margin: 0;
         padding-left: 30px;
@@ -248,6 +266,9 @@ li.signUpBtn a:hover {
 
     input[type=checkbox]:checked ~ .menu {
         display: block;
+        border-radius: 0 0 0 25px;
+        animation: fadeIn 0.3s;
+        transition: 0.3s ease;
     }
     div.searchBarMobile {
         margin-bottom: 10px;
