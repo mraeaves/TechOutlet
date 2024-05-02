@@ -21,3 +21,10 @@
     vertical-align: middle;
     text-align: left;
 }
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 1550px) {
+    .sideBarDiv {
+        display: none;
+    }
+}
