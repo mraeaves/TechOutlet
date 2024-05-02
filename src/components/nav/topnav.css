@@ -83,7 +83,7 @@ div.accountButtons {
 
 .menu li {
     padding: 5px 15px;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 .department {
@@ -101,12 +101,6 @@ div.accountButtons {
     top: 100%;
     left: 0;
 }
-
-/*
-.department > .dropdown > li:hover {
-    border-radius: 15px;
-    background-color: #FF0020;
-}*/
 
 .caret {
     width: 8px;
@@ -207,7 +201,7 @@ li.signUpBtn a:hover {
   }
 
 /* APPLYING MEDIA QUERIES */
-@media (max-width: 1710px) {
+@media (max-width: 1550px) {
     .logoSection {
         margin: 0;
         padding-left: 30px;
@@ -243,10 +237,11 @@ li.signUpBtn a:hover {
     .menu li {
         padding: 0;
         margin: 25px auto;
+        cursor: default;
     }
 
-    .menu li:hover {
-        background-color: #dfdfdf;
+    .menu li a:hover {
+        width: 100%;
         transition: 0.3s ease;
     }
 
@@ -271,6 +266,7 @@ li.signUpBtn a:hover {
         animation: fadeIn 0.3s;
         transition: 0.3s ease;
     }
+
     div.searchBarMobile {
         margin-bottom: 10px;
         height: 37px;
@@ -312,10 +308,6 @@ li.signUpBtn a:hover {
     .div.accountButtons {
         width: 400px;
         margin: 0;
-    }
-
-    li.loginBtn:hover {
-        background-color: #FF0020;
     }
 }
 

@@ -11,7 +11,7 @@ export const TopNav = () => {
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             
             <div class="menu topNav">
-            <h2> Menu</h2>
+            <h2>Menu</h2>
               <div className="searchBarMobile">
                 <input placeholder="Search for a product e.g. Samsung..."></input>
               </div>
@@ -25,17 +25,17 @@ export const TopNav = () => {
                   <li><a href="/" className='dropdownLink'>PC Accessories</a></li>
                   <li><a href="/" className='dropdownLink'>Photo</a></li>
                   <p class="divider"></p>
-                  <li class="afterDivider"><a href="/" className='dropdownLink'>All Products</a></li>
+                  <li class="afterDivider"><a href="/Products" className='dropdownLink'>All Products</a></li>
                 </ul>
               </li>
               <div className="searchBar">
                 <input placeholder="Search for a product e.g. Samsung..."></input>
               </div>
               <li><a href="/" className='afterSearch'>Home</a></li>
-              <li><a href="/" className='afterSearch'>All Products</a></li>
+              <li><a href="/Products" className='afterSearch'>All Products</a></li>
               <div className='accountButtons'>
-                <li class="loginBtn"><a href="/" className='loginBtnLink'>Login</a></li>
-                <li class="signUpBtn"><a href="/">Sign Up</a></li>
+                <li class="loginBtn"><a href="/Login" className='loginBtnLink'>Login</a></li>
+                <li class="signUpBtn"><a href="/SignUp">Sign Up</a></li>
               </div>
             </div>
           </ul>

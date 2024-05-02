@@ -1,9 +1,23 @@
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
+import HomePage from './pages/Home'
+import Products from './pages/Products'
+import NoPage from "./pages/NoPage/NoPage"
+import LoginPg from "./pages/Login/Login"
+import SignUp from "./pages/SignUp/SignUp"
+
 function App() {
   return (
     <>
-    <div>
-      
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/Login" element={<LoginPg />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }

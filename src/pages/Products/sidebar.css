@@ -1,0 +1,23 @@
+/* main container */
+.sideBarDiv {
+    width: 400px;
+    height: 600px;
+    display: flex;
+}
+
+.sideFilter {
+    margin: 15px auto;
+    display: table;
+    text-align: center;
+    height: 40px;
+    width: 90%;
+    background-color: #f9f9f9;
+    border-radius: 25px;
+    padding: 15px 25px;
+}
+
+.sideFilter p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
