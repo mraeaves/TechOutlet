@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
 import HomePage from './pages/Home'
 import Products from './pages/Products'
-import NoPage from "./pages/NoPage/NoPage"
-import LoginPg from "./pages/Login/Login"
-import SignUp from "./pages/SignUp/SignUp"
+import NoPage from "./pages/NoPage"
+import LoginPg from "./pages/Login"
+import SignUp from "./pages/SignUp"
 
 function App() {
   return (
