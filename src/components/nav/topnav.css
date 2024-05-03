@@ -325,7 +325,7 @@ li.signUpBtn a:hover {
         height: 100vh;
         width: 100%;
         padding: 10px 0 10px 0;
-        border-radius: 0;
+        border-radius: 0px;
         filter: none;
     }
 
