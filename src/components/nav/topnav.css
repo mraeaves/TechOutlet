@@ -3,6 +3,7 @@ nav.mainNav {
     padding: 0 0 2px 0;
     justify-content: center;
     vertical-align: middle;
+    z-index: 99;
 }
 
 .logoSection {
@@ -17,7 +18,7 @@ nav.mainNav {
     transform: translate(0,-50%);
     border-radius: 15px;
     padding: 5px;
-    border: #fff;
+    border: var(--white);
     outline: none;
     text-indent: 5px;
 }
@@ -29,18 +30,18 @@ li {
     list-style: none;
 }
 
-h2 {
+.mainNav h2 {
     display: none;
 }
 
 .topNav.li:hover {
-    background-color: #FF0020;
+    background-color: var(--red);
 }
 
 
 .mainNav {
-    background-color: #dfdfdf;
-    color: #000;
+    background-color: var(--darker-grey);
+    color: var(--black);
     justify-content: space-between;
 }
 
@@ -52,7 +53,7 @@ h2 {
 }
  
 .nav-links a {
-    color: #000;
+    color: var(--black);
     vertical-align: middle;
 }  
 
@@ -92,7 +93,7 @@ div.accountButtons {
 }
 
 .dropdown {
-    background-color: #f9f9f9;
+    background-color: var(--light-grey);
     padding: 1em 1em;
     margin-top: 1px;
     position: absolute;
@@ -100,6 +101,7 @@ div.accountButtons {
     border-radius: 8px;
     top: 100%;
     left: 0;
+    box-shadow: 0 0 2px var(--light-black);
 }
 
 .caret {
@@ -121,15 +123,15 @@ div.accountButtons {
 }
 
 .dropdownLink:hover {
-    background-color: #FF0020;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
     border-radius: 15px;
     width: 100%;
     text-decoration: none;
 }
 
 .divider {
-    border-top: 1px solid #dfdfdf;
+    border-top: 1px solid var(--darker-grey);
     padding: 0;
     margin-top: 5px;
 }
@@ -155,8 +157,8 @@ input[type=checkbox] {
 }
 
 li .afterSearch:hover {
-    background-color: #FF0020;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
     text-decoration: none;
     border-radius: 20px;
 }
@@ -166,27 +168,27 @@ li .afterSearch {
 }
 
 li.loginBtn a {
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 20px;
     padding: 5px 35px;
 }
 
 li.loginBtn a:hover {
-    background-color: #FF0020;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
     text-decoration: none;
 }
 
 li.signUpBtn a {
-    background-color: #FF0020;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
     border-radius: 20px;
     padding: 5px 35px;
 }
 
 li.signUpBtn a:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--white);
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -212,7 +214,7 @@ li.signUpBtn a:hover {
         text-align: right;
     }
 
-    h2 {
+    .mainNav h2 {
         display: block;
         margin: 50px 0 20px 0;
         font-weight: bold;
@@ -222,7 +224,7 @@ li.signUpBtn a:hover {
     .menu {
         display: none;
         position: absolute;
-        background-color:#dfdfdf;
+        background-color:var(--darker-grey);
         right: 0;
         margin: 0;
         text-align: center;
@@ -232,6 +234,7 @@ li.signUpBtn a:hover {
         width: 400px;
         padding: 10px 0 10px 0;
         border-radius: 0 0 20px 20px;
+        filter: drop-shadow(5px 5px 10px);
     }
 
     .menu li {
@@ -262,7 +265,7 @@ li.signUpBtn a:hover {
 
     input[type=checkbox]:checked ~ .menu {
         display: block;
-        border-radius: 0 0 0 25px;
+        border-radius: 25px 0 0 25px;
         animation: fadeIn 0.3s;
         transition: 0.3s ease;
     }
@@ -297,6 +300,7 @@ li.signUpBtn a:hover {
     .dropdown  {
         position: relative;
         margin: 5px;
+        box-shadow: none;
     }
 
     .dropdown li {
@@ -315,13 +319,14 @@ li.signUpBtn a:hover {
     .menu {
         display: none;
         position: absolute;
-        background-color:#dfdfdf;
+        background-color:var(--darker-grey);
         text-align: center;
         top: 100%;
         height: 100vh;
         width: 100%;
         padding: 10px 0 10px 0;
         border-radius: 0 0 20px 20px;
+        filter: none;
     }
 
     h2 {

@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
 import HomePage from './pages/Home'
 import Products from './pages/Products'
-import NoPage from "./pages/NoPage"
+import NoPage from "./pages/404"
 import LoginPg from "./pages/Login"
 import SignUp from "./pages/SignUp"
+import './App.css'
 
 function App() {
   return (
