@@ -32,10 +32,10 @@ export const TopNav = () => {
                 <input placeholder="Search for a product e.g. Samsung..."></input>
               </div>
               <li><a href="/" className='afterSearch'>Home</a></li>
-              <li><a href="/Products" className='afterSearch'>All Products</a></li>
+              <li><a href="/products" className='afterSearch'>All Products</a></li>
               <div className='accountButtons'>
-                <li class="loginBtn"><a href="/Login" className='loginBtnLink'>Login</a></li>
-                <li class="signUpBtn"><a href="/SignUp">Sign Up</a></li>
+                <li class="loginBtn"><a href="/login" className='loginBtnLink'>Login</a></li>
+                <li class="signUpBtn"><a href="/sign-up">Sign Up</a></li>
               </div>
             </div>
           </ul>
