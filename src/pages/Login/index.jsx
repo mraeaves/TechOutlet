@@ -12,7 +12,7 @@ function LoginPg() {
           <input className='loginFormEmail' placeholder='Please Enter Your Email' type='email'></input>
           <input className='loginFormPwd' placeholder='Please Enter Your Password' type='password'></input>
           <button className='loginSubmitBtn' type='submit'>Submit</button>
-          <p className='signUpHereTxt'>Don't Have an account? <a href='/SignUp'>Sign up here...</a></p>
+          <p className='signUpHereTxt'>Don't Have an account? <a href='/SignUp' className='signUpHereBtnLink'>Sign up here...</a></p>
           <a href='/SignUp' className='forgotPasswordLink'>Forgot Password?</a>
         </form>
       </div>

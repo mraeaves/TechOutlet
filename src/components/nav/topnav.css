@@ -95,7 +95,7 @@ div.accountButtons {
 .dropdown {
     background-color: var(--light-grey);
     padding: 1em 1em;
-    margin-top: 1px;
+    margin-top: 0;
     position: absolute;
     display: none;
     border-radius: 8px;
@@ -254,8 +254,9 @@ li.signUpBtn a:hover {
 
     .accountButtons {
         width: 400px;
-        position: fixed;
+        height: 89px;
         bottom: 0;
+        position: absolute;
     }
 
     .accountButtons li {
@@ -321,16 +322,19 @@ li.signUpBtn a:hover {
         position: absolute;
         background-color:var(--darker-grey);
         text-align: center;
-        top: 100%;
+        top: 0;
         height: 100vh;
         width: 100%;
         padding: 10px 0 10px 0;
-        border-radius: 0px;
         filter: none;
     }
 
-    h2 {
-        margin-top: 0;
+    .mainNav h2 {
+        margin-top: 50px;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        border-radius: 0px;
     }
 
     div.searchBarMobile input {
@@ -339,7 +343,5 @@ li.signUpBtn a:hover {
 
     .accountButtons {
         width: 100%;
-        position: fixed;
-        bottom: 0;
     }
 }
