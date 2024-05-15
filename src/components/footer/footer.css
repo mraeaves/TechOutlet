@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--darker-grey);
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+}
+
+.left {
+    text-align: left;
+    left: 0;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+.right {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    right: 0;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.mail-red {
+    padding-right: 5px;
+    color: var(--red);
+}
+
+@media (max-width: 768px) {
+    .right {
+        display: table-row;
+        text-align: center;
+    }
+
+    .left {
+        display: table-row;
+        text-align: center;
+    }
+}
