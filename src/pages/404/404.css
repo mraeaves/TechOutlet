@@ -27,7 +27,7 @@
 }
 
 .Page404 a {
-    padding: 5px 35px;
+    padding: 5px 15px 5px 15px;
     background-color: var(--red);
     border-radius: 15px;
     text-decoration: none;
@@ -35,10 +35,14 @@
 }
 
 .Page404 a:hover {
-    padding: 5px 35px;
+    padding: 5px 15px 5px 15px;
     background-color: var(--white);
     border: 1px solid var(--darker-grey);
     border-radius: 15px;
     text-decoration: none;
     color: var(--black);
+}
+
+.home-arrow-right {
+    margin-left: 20px;
 }
