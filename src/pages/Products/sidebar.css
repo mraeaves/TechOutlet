@@ -1,14 +1,13 @@
 /* main container */
 .sideBarDiv {
     width: 400px;
-    height: 1000px;
+    height: 100%;
     display: flex;
 }
 
 .sideFilter {
     margin: 15px auto;
     display: table;
-    text-align: center;
     height: 40px;
     width: 90%;
     background-color: var(--light-grey);
@@ -18,9 +17,32 @@
 }
 
 .sideFilter p {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left;
+}
+
+.sidebar-filter {
+    text-align: right;
     display: table-cell;
     vertical-align: middle;
-    text-align: left;
+}
+
+.filterBrands {
+    position: relative;
+    display: table-row;
+    margin-left: 0;
+    padding: 0;
+}
+
+.filterBrands ul li{
+    margin-left: 20px;
+}
+
+.filterBrands input[type="checkbox"] {
+    display: inline-flex;
+    float: right;
+    margin-top: 6px;
 }
 
 /* APPLYING MEDIA QUERIES */

@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--light-grey);
+}
+
+.signupContainer {
+    height: 500px;
+    width: 800px;
+    background: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 6px var(--light-black);
+    text-align: center;
+    display: table;
+}
+
+.signupForm {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.signupForm h2 {
+    color: var(--light-black);
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.signupFormEntries input {
+    width: 80%;
+    margin-top: 20px;
+    background-color: var(--light-grey);
+    box-shadow: 0 0 3px var(--light-black);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+}
+
+.signupSubmitBtn {
+    background-color: var(--red);
+    outline: none;
+    border: none;
+    color: var(--white);
+    padding: 5px 100px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.signupSubmitBtn:focus, .signupFormEntries input:focus {
+    outline: none;
+}
+
+.signupSubmitBtn:hover {
+    background-color: var(--white);
+    box-shadow: 0 0 2px var(--light-black);
+    color: var(--black);
+}
+
+.loginHereTxt, .loginHereTxt a, .loginHereTxt a:visited {
+    margin-top: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.loginHereTxt a:hover, .forgotPasswordLink:hover {
+    color: var(--red);
+    text-decoration: none;
+}
+
+/* RESPONSIVE CSS */
+@media (max-width: 1550px) {
+    .signupContainer {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1350px) {
+    body {
+        background-color: var(--white);
+    }
+    .signupContainer {
+        width: 90%;
+        height: 100%;
+        box-shadow: none;
+    }
+}

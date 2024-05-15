@@ -4,6 +4,7 @@ import Products from './pages/Products'
 import NoPage from "./pages/404"
 import LoginPg from "./pages/Login"
 import SignUp from "./pages/SignUp"
+import Checkout from "./pages/Checkout"
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/login" element={<LoginPg />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

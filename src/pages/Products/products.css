@@ -1,0 +1,12 @@
+.productsPage {
+    display: table;
+}
+.allProductsContent {
+    display: table-cell;
+    position: relative;
+    width: 100%;
+}
+
+.allProductsContent h1 {
+    padding-left: 30px;
+}
