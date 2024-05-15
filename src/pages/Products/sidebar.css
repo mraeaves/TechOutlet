@@ -1,7 +1,7 @@
 /* main container */
 .sideBarDiv {
     width: 400px;
-    height: 600px;
+    height: 1000px;
     display: flex;
 }
 
@@ -11,7 +11,8 @@
     text-align: center;
     height: 40px;
     width: 90%;
-    background-color: #f9f9f9;
+    background-color: var(--light-grey);
+    box-shadow: 0 0 1.7px var(--light-black);
     border-radius: 25px;
     padding: 15px 25px;
 }

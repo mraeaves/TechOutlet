@@ -3,7 +3,7 @@ import './sidebar.css'
 export const SideBar = () => {
   return (
     <>
-      <div className='sideBarDiv'>
+      <div className=''>
         <div className='sideFilter'>
           <p className='filterTitle'>Filter</p>
         </div>

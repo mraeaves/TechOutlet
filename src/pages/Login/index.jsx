@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/footer';
 import TopNav from '../../components/nav/topnav';
 import './login.css'
 
@@ -17,6 +18,7 @@ function LoginPg() {
         </form>
       </div>
     </div>
+    <Footer />
     </>
   )
 }

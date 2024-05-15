@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/footer';
 import TopNav from '../../components/nav/topnav';
 
 function SignUp() {
@@ -5,6 +6,7 @@ function SignUp() {
     <>
     <TopNav />
     Sign Up
+    <Footer />
     </>
   )
 }
