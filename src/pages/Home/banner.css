@@ -50,3 +50,20 @@
     color: var(--black);
     border: 1px solid var(--darker-grey);
 }
+
+@media (max-width: 768px) {
+
+    .homeBanner, .homeBannerCenter {
+        height: 300px;
+    }
+
+    .bannerContent h3 {
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .bannerContent p, .bannerContent h5 {
+        margin-bottom: 30px;
+    }
+
+}

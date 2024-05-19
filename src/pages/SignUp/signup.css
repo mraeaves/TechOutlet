@@ -72,6 +72,10 @@ body {
     text-decoration: none;
 }
 
+.loginHereBtnLink {
+    font-style: italic;
+}
+
 /* RESPONSIVE CSS */
 @media (max-width: 1550px) {
     .signupContainer {

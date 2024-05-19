@@ -22,6 +22,14 @@ export const SideBar = () => {
               <li>Lenovo <input type="checkbox" name='Lenovo' value="Lenovo" /></li>
             </ul>
           </div>
+          <div className='filterPrice'>
+            <ul>Price
+                <li>
+                  <input type="number" class="min-input" placeholder="Min"/>
+                  <input type="number" class="max-input" placeholder="Max" /> 
+                </li>    
+            </ul>
+          </div>
         </div>
       </div>
       <Footer />

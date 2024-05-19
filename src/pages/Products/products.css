@@ -9,4 +9,18 @@
 
 .allProductsContent h1 {
     padding-left: 30px;
+    font-size: 30px;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 1550px) {
+    .allProductsContent h1 {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .allProductsContent {
+        width: 100vw;
+    }
 }

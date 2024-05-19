@@ -35,7 +35,7 @@
     padding: 0;
 }
 
-.filterBrands ul li{
+.filterBrands ul li, .filterPrice ul li{
     margin-left: 20px;
 }
 
@@ -45,8 +45,35 @@
     margin-top: 6px;
 }
 
+.min-input, .max-input {
+    width: 105px;
+    margin: 5px 5px;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid var(--light-black);
+    background-color: var(--white);
+}
+
+.min-input::placeholder, .max-input::placeholder {
+    opacity: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 1550px) {
+    
+}
+
+@media (max-width: 1270px) {
     .sideBarDiv {
         display: none;
     }
