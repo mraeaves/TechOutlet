@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: var(--light-grey);
+    background: rgb(142,197,252);
+    background: linear-gradient(206deg, rgba(142,197,252,1) 30%, rgba(255,0,32,0.8) 95%);
 }
 
 .loginContainer {
@@ -34,9 +35,9 @@ body {
     margin-top: 20px;
     background-color: var(--light-grey);
     box-shadow: 0 0 3px var(--light-black);
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     border: none;
 }
 
@@ -45,7 +46,7 @@ body {
     outline: none;
     border: none;
     color: var(--white);
-    padding: 5px 100px;
+    padding: 5px 60px;
     border-radius: 25px;
     margin-top: 20px;
     cursor: pointer;
@@ -61,9 +62,9 @@ body {
     color: var(--black);
 }
 
-.signUpHereTxt, .signUpHereTxt a, .signUpHereTxt a:visited {
-    margin-top: 20px;
-    color: var(--black);
+.loginForm p, .signUpHereTxt, .signUpHereTxt a:visited:not(.signUpHereBtnLink) {
+    margin: 20px 0 10px 0;
+    color: var(--grey-faded);
     text-decoration: none;
 }
 
@@ -74,25 +75,33 @@ body {
 
 .forgotPasswordLink, .signUpHereBtnLink {
     color: var(--black);
-    font-style: italic;
     text-decoration: none;
 }
 
 /* RESPONSIVE CSS */
 @media (max-width: 1550px) {
     .loginContainer {
-        width: 80%;
+        width: 70%;
         height: 500px;
+    }
+
+    .loginFormEntries input {
+        width: 90%;  
     }
 }
 
 @media (max-width: 1350px) {
     body {
-        background-color: var(--white);
+        background-color: var(--white) ;
     }
+    
     .loginContainer {
         width: 90%;
-        height: 100%;
-        box-shadow: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .loginFormEntries input {
+        width: 80%;  
     }
 }

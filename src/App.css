@@ -2,15 +2,15 @@
   --primary-color: #000;
   --red: #FF0020;
   --light-grey: #f9f9f9;
+  --grey-faded: #71717A;
   --darker-grey: #dfdfdf;
   --white: #fff;
   --black: #000;
   --light-black: #333;
+
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
