@@ -1,10 +1,10 @@
 # TechOutlet
-An e-commerce website for technology products. I have used React JS in this project which is an old college assignment.
+An online platform dedicated to technology products has been developed. This project, which was originally a college assignment, utilizes React JS as its framework.
 
 Feel free to check out the LIVE verison of this project over on https://tech-outlet.vercel.app/
 
 # Task Outline
-The task I was set within college, was to create, design and implement an e-commerce website. This website had to be functional to a point where items could be clicked and the site could be navigated around but we did not have to implement a working basket, checkout or payments.
+The assignment I received during my college studies involved the creation, design, and implementation of an e-commerce website. The website was required to be functional to the extent that users could click on items and navigate through the site; however, the implementation of a working shopping cart, checkout process, or payment system was not necessary.
 
 # Features
 
