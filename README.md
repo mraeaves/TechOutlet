@@ -8,9 +8,9 @@ The assignment I received during my college studies involved the creation, desig
 
 # Features
 
-* **Responsive** - This project is resonsive for all device sizes
-* **Filtering** - Ability to filter products on the 'All Products' page
-* **Checkout** - Adding items to the basket and viewing within the 'Checkout' page
+* **Responsive** - This project is designed to be compatible with all device sizes.
+* **Filtering** - Users can filter products on the 'All Products' page.
+* **Checkout** - Users can add items to their basket and review them on the 'Checkout' page.
 
 # License
 This project is licensed under the MIT License.
